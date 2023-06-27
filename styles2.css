@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+body {
+    margin: 0px 50px;
+}
+
+.navbar {
+    padding: 20px 0px;
+}
+
+.bink {
+    background-color: #0E345A;
+    color: white;
+    font-family: 'Varela Round', sans-serif!important;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.my_menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.my_menu ul {
+    padding-top: 10px;
+}
+
+.publishers {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    border: 3px solid #0E345A;
+    padding: 10px 10px 7px 0px;
+    color: #0E345A;
+}
+
+.my_menu ul li {
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif!important;
+    color: #0E345A;
+    text-align: right;
+}
+
+.my_menu ul li:hover {
+    color: #A9BFD6;
+    transition: 1s;
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
+
+.jumbotron {
+    background-image: url(images/Book11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 40px 0px!important;
+}
+
+.jumbotron2 {
+    margin-top: 40px;
+}
+
+.jumbotron2 span {
+    font-size: 110px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    line-height: 140px;
+    color: #0E345A;
+}
+
+.text {
+    padding: 60px 0px;
+}
+
+.my_title2 h1 {
+    font-size: 60px;
+    color: #0E345A;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.my_title2 p {
+    font-size: 24px;
+    color: #0E345A;
+    text-align: center;
+}
+
+.bestsellers {
+    background-image: url(images/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.my_img div {
+    background-color: #F2F2F2;
+    height: 200px;
+    width: 70%;
+    margin: auto;
+}
+
+.my_img div img {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+}
+
+.my_img div:hover {
+    background-color: white;
+    padding: 0px;
+}
+
+.my_img div:hover img {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+.my_img:hover p {
+    padding: 5px 0px;
+    font-size: 22px;
+}
+
+.my_img p {
+    color: white!important;
+    text-align: center;
+    font-size: 19px;
+}
+
+.frst {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.my_title3 {
+    background-color: #0E345A;
+    padding-top: 50px;
+}
+
+.my_title3 h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.my_title3 p {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.line {
+    background-color: #0E345A;
+    width: 30px!important;
+    height: 2px;
+}
+
+.line2 {
+    background-color: white;
+    width: 60px!important;
+    margin: auto;
+    height: 1px;
+}
+
+.recommend {
+    width: 100%;
+    height: 600px;
+    background-color: #0E345A;
+}
+
+.my_img2 div {
+    background-color: #F2F2F2;
+    height: 200px;
+    width: 70%;
+    margin: auto;
+}
+
+.my_img2 div img {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+}
+
+.my_img2 div:hover {
+    background-color: white;
+    padding: 0px;
+}
+
+.my_img2 div:hover img {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+.my_img2:hover p {
+    padding: 5px 0px;
+    font-size: 22px;
+}
+
+.my_img2 p {
+    color: white!important;
+    text-align: center;
+    font-size: 19px;
+}
+
+.my_title4 {
+    background-color: #0E345A;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my_title4 h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.my_title4 p {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.my_title4 button {
+    border: 3px solid white;
+    color: white;
+    padding: 15px 30px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.my_title4 button:hover {
+    color: #0E345A;
+    background-color: white;
+    transition: 1s;
+    font-weight: bold;
+}
+
+.my_title5 {
+    padding-top: 120px;
+}
+
+.my_title5 h1 {
+    font-size: 60px;
+    color: #0E345A;
+    text-align: center;
+}
+
+.my_title5 p {
+    font-size: 24px;
+    color: #0E345A;
+    text-align: center;
+}
+
+.launch_book {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.launch_book p {
+    text-align: left!important;
+}
+
+.launch_book img {
+    width: 100%;
+    height: 550px;
+    border: 8px solid #0E345A;
+}
+
+.launch_book button {
+    border: 3px solid #0E345A;
+    color: #0E345A;
+    padding: 15px 30px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.launch_book button:hover {
+    color: white;
+    background-color: #0E345A;
+    transition: 1s;
+    font-weight: bold;
+}
+
+.frs_txt {
+    font-size: 22px;
+    font-family: 'Varela Round', sans-serif!important;
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+
+.scn_txt {
+    font-size: 18px!important;
+    padding-bottom: 70px;
+    font-family: 'Varela Round', sans-serif!important;
+}
+
+.lst_txt {
+    font-size: 14px!important;
+    letter-spacing: 2px;
+    font-family: 'Varela Round', sans-serif!important;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0E345A;
+    color: white;
+    font-size: 14px;
+    padding: 40px 30px;
+    line-height: 35px;
+    font-family: 'Varela Round', sans-serif!important;
+    letter-spacing: 2px;
+    margin: 60px 0px 0px 0px!important;
+}
+
+.part_footer {
+    margin: 0px!important;
+}
+
+.footer input {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.footer input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+}
+
+.footer button {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    color: #0E345A;
+    border: 2px solid white;
+}
+
+.footer button:hover {
+    background-color: transparent;
+    color: white;
+    transition: .2s;
+    border: 2px solid white;
+}
+
+.finish {
+    width: 100%;
+    background-color: #0E345A;
+    color: white;
+    padding: 30px;
+    font-family: 'Varela Round', sans-serif!important;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin: 0px!important;
+}
